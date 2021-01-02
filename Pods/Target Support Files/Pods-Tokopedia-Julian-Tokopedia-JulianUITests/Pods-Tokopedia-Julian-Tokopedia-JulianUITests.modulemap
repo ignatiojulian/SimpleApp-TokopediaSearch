@@ -1,0 +1,6 @@
+framework module Pods_Tokopedia_Julian_Tokopedia_JulianUITests {
+  umbrella header "Pods-Tokopedia-Julian-Tokopedia-JulianUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

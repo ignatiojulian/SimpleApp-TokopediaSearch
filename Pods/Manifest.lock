@@ -1,0 +1,26 @@
+PODS:
+  - ESPullToRefresh (2.9.3)
+  - Kingfisher (5.15.8):
+    - Kingfisher/Core (= 5.15.8)
+  - Kingfisher/Core (5.15.8)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - ESPullToRefresh (~> 2.9)
+  - Kingfisher (~> 5.15)
+  - SwiftyJSON (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - ESPullToRefresh
+    - Kingfisher
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 9b6382a46f0102753bcdd02d39356d84cdae6df6
+
+COCOAPODS: 1.10.0
