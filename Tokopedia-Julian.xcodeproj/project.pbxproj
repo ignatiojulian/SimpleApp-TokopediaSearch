@@ -18,6 +18,9 @@
 		B93BBB0125A01C4700B65434 /* Tokopedia_JulianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93BBB0025A01C4700B65434 /* Tokopedia_JulianTests.swift */; };
 		B93BBB0C25A01C4700B65434 /* Tokopedia_JulianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93BBB0B25A01C4700B65434 /* Tokopedia_JulianUITests.swift */; };
 		B93BBB4725A034D700B65434 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93BBB4625A034D700B65434 /* UITextField.swift */; };
+		B93BBB6A25A0749000B65434 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93BBB6925A0749000B65434 /* SearchViewController.swift */; };
+		B93BBB8225A0851A00B65434 /* ItemsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93BBB8125A0851A00B65434 /* ItemsCollectionViewCell.swift */; };
+		B93BBB8725A0857F00B65434 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93BBB8625A0857F00B65434 /* FilterViewController.swift */; };
 		D15DB77778FBB35FDD4772DB /* Pods_Tokopedia_Julian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045CDE69AB5F6D03AEF98A58 /* Pods_Tokopedia_Julian.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +64,9 @@
 		B93BBB0B25A01C4700B65434 /* Tokopedia_JulianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokopedia_JulianUITests.swift; sourceTree = "<group>"; };
 		B93BBB0D25A01C4700B65434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B93BBB4625A034D700B65434 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		B93BBB6925A0749000B65434 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B93BBB8125A0851A00B65434 /* ItemsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCollectionViewCell.swift; sourceTree = "<group>"; };
+		B93BBB8625A0857F00B65434 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		C9E986DBD26A421A6D516A34 /* Pods_Tokopedia_JulianTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tokopedia_JulianTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D435375A6090FBAEEB416786 /* Pods_Tokopedia_Julian_Tokopedia_JulianUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tokopedia_Julian_Tokopedia_JulianUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -173,6 +179,8 @@
 			isa = PBXGroup;
 			children = (
 				B93BBAED25A01C4400B65434 /* ViewController.swift */,
+				B93BBB6925A0749000B65434 /* SearchViewController.swift */,
+				B93BBB8625A0857F00B65434 /* FilterViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -199,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				B93BBB4625A034D700B65434 /* UITextField.swift */,
+				B93BBB8125A0851A00B65434 /* ItemsCollectionViewCell.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -441,10 +450,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93BBB8725A0857F00B65434 /* FilterViewController.swift in Sources */,
+				B93BBB6A25A0749000B65434 /* SearchViewController.swift in Sources */,
 				B93BBAEE25A01C4400B65434 /* ViewController.swift in Sources */,
 				B93BBAEA25A01C4400B65434 /* AppDelegate.swift in Sources */,
 				B93BBAEC25A01C4400B65434 /* SceneDelegate.swift in Sources */,
 				B93BBB4725A034D700B65434 /* UITextField.swift in Sources */,
+				B93BBB8225A0851A00B65434 /* ItemsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
